@@ -1,0 +1,78 @@
+Header{
+    text-align: center;
+    background-color: rgb(250, 250, 250);
+    color: rgba(49, 49, 49, 0.829);
+    text-shadow: 1.5px 1.5px rgb(0, 0, 0);
+}
+
+#Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fd2222;
+}
+
+#CSS-logo {
+    width: 40%;
+    padding-right: 27%;
+    
+}
+
+.container{
+    background-color: #0e0e0eec;
+}
+
+#welcome{
+    background-color: rgb(39, 38, 38);
+    text-align: center;
+    color: rgb(151, 12, 12);
+    background-image: url(CSS.jpg);
+    text-shadow: 2px 2px rgb(95, 0, 0);
+}
+
+
+#Main-paragraph{
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+    background-color: rgb(44, 44, 44);
+    color: rgb(255, 255, 255);
+}
+
+
+#button{
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    width: 120px;
+    height: 35px;  
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(117, 12, 12);
+    border-color: rgb(17, 1, 1);    
+}
+
+#buttons button {
+margin: 2pc;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    background-color: rgb(55, 55, 56);
+    color: rgb(255, 255, 255);
+    
+}
+
+#bottom {
+    background-color: rgb(66, 4, 7);
+}
+
